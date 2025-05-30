@@ -34,21 +34,21 @@ Some convertible laptops and tablets do not properly rotate the touchscreen inpu
 
    ```bash
    git clone https://github.com/USERNAME/autorotate-touchscreen.git
-   cd autorotate-touchscreen
-```
+   cd autorotate-touchscreen 
+
 2. Make the script Executable:
    ```bash
    chmod +x autorotate.sh
 
-```
 3. Run the script, rotate your screen and test if touchscreen works as intended
    ```bash
    ./autorotate.sh
-```
+
 The script runs in a loop, checking the screen orientation every second and rotating the touchscreen accordingly.
+
 4. To autostart the script on GNOME login without showing a terminal window, create a .desktop autostart entry in ~/.config/autostart/ (see the repo Wiki or system documentation).
 
-##How it works
+## How it works
 Detects the current screen orientation (normal, left, right, or inverted) using xrandr.
 
 Automatically detects the touchscreen device ID via xinput.
@@ -57,10 +57,10 @@ Sets the touchscreen coordinate transformation matrix to match the detected orie
 
 Continuously monitors for orientation changes every second and updates the touchscreen accordingly.
 
-##License
+## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
-##Contributions and Issues
+## Contributions and Issues
 Feel free to open issues or submit pull requests to improve compatibility or add features.
 
 _Made with 🧠 & ☕_
