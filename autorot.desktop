@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Exec=/root/scripts/autorot.sh
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name=Touchscreen AutoRotate
+Comment=Automatically rotate touchscreen without terminal window
