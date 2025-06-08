@@ -48,6 +48,13 @@ The script runs in a loop, checking the screen orientation every second and rota
 
 4. To autostart the script on GNOME login without showing a terminal window, create a .desktop autostart entry in ~/.config/autostart/ (see the repo Wiki or system documentation).
 
+## Add this button 
+- simply put the folder autorot@crashlogs in _~/.local/share/gnome-shell/extensions/_ if extensions folder is not there, mkdir it
+- this far your should have gnome-shell-extensions & gnome-tweaks installed, if not apt install them
+- execute 
+```gnome-extensions enable autorot@crashlogs
+- press ALT+F2, type "r" and "Enter"
+
 ## How it works
 Detects the current screen orientation (normal, left, right, or inverted) using xrandr.
 

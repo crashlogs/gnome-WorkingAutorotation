@@ -1,0 +1,7 @@
+{
+  "uuid": "autorot@crashlogs",
+  "name": "autorot",
+  "description": "Add a autorotate enable/disable to the system menu",
+  "shell-version": ["48", "44", "43"],
+  "version": 1
+}
